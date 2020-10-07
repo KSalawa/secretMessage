@@ -23,3 +23,5 @@ console.log(secretMessage.indexOf('get')); //6
 
 secretMessage.splice(6, 5, 'know');
 console.log(secretMessage);
+
+console.log(secretMessage.join(' '));
